@@ -28,7 +28,12 @@ body {
 	overflow: hidden;
 }
   </style>
-  <script>
+
+  <body>
+    <canvas id=c></canvas>
+    <p>To MOM<span>, by <a href="https://codepen.io/FRADAR">Frasho</a></span></p>
+  </body> 
+	  <script>
     var w = c.width = window.innerWidth,
 		h = c.height = window.innerHeight,
 		ctx = c.getContext( '2d' ),
@@ -432,8 +437,4 @@ window.addEventListener( 'resize', function(){
 	ctx.font = opts.charSize + 'px Verdana';
 })
   </script>
-  <body>
-    <canvas id=c></canvas>
-    <p>To MOM<span>, by <a href="https://codepen.io/FRADAR">Frasho</a></span></p>
-  </body> 
 </html>
